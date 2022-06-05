@@ -1,0 +1,15 @@
+.footer a {
+    font-family: monospace;
+    color: #69788d;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 5px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.footer a:hover {
+    color: rgb(255, 131, 82);
+
+}

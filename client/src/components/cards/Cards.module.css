@@ -1,0 +1,28 @@
+.container{
+    background: linear-gradient(112.04deg, rgb(19, 0, 64) 3.25%, rgb(37, 1, 120) 99.18%);
+    height: 50vh;
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-bottom: 1px white solid;
+    font-weight: bold;
+
+}
+
+.headers p {
+    margin: 5px 50px;
+    text-align: left;
+    width: 6rem;
+}
+
+.container h2 {
+    padding-top: 5rem;
+}

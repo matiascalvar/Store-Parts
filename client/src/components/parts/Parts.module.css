@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(112.04deg, rgb(19, 0, 64) 3.25%, rgb(37, 1, 120) 99.18%);
+    height: 40vh;
+    width: 30vw;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+}
+
+.card h2 {
+    color: rgb(255, 131, 82);
+}
+
+.card p {
+    font-size: larger;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 4px;
+    background-color: white;
+    border: none;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(255, 131, 82);
+    color: white;
+    cursor: pointer;
+}
